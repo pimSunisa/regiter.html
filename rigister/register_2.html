@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3><font style="color:green" >สมัครเรียน (ปีการศึกษา 1/2566)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font style="color:rgb(123, 143, 255)" >ระดับปวช.(ปกติ)</font></font></h3>
+    <div class="text-title fblue" style="margin-bottom: 10px;">
+        <button type="button" class="btn" disabled="disabled">1</button>
+        &nbsp;<b>2. กรอกข้อมูลผู้สมัครเรียน</b>&nbsp;
+        <button type="button" class="btn" disabled="disabled">3</button>
+        <button type="button" class="btn" disabled="disabled">4</button>
+        <button type="button" class="btn" disabled="disabled">5</button>
+    </div>
+    <tr>
+        <td colspan="4" class="topic" style="padding-bottom: 10px;"><b>&nbsp;&nbsp;&nbsp;&nbsp;ข้อมูลผู้สมัคร <span
+                style="font-weight: normal;color: #ff0000;">(** ระบุ รหัสประจำตัวประชาชน และ วัน /เดือน
+                /ปี เกิด เพื่อตรวจสอบข้อมูล)</span></b></td>
+    </tr>
+    <p></p>
+    <h4><font style="color:green" >&nbsp;&nbsp;&nbsp;กรอกข้อมูลผู้สมัครเรียน</font></h4>
+    <form>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<dd><font color="red">*</font><label for="fname">รหัสประจำตัวประชาชน :</label>
+            <input type="text" maxlength="13" id="fname" name="fname" placeholder="XXXXXXXXXXXXX"><br><br></dd>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <dd><font color="red">*</font><label for="">วันเกิด</label>
+            <input type="date" name="birtdate"></dd>
+            <br><br>
+            <dd><input type="submit" value="ตรวจสอบ">
+            <input type="reset" value="เริ่มใหม่"></dd>
+        </div>
+        <br>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for=""><font color="red">*</font><bb>สมัครโดยใช้วุฒิ</bb></label>
+            <Input type="radio" name="" value="0"><b>ม.3</b>
+        <bb><p><font style="color:green" ><b>&nbsp;&nbsp;&nbsp;ข้อมูลส่วนตัวผู้สมัคร</b></p></font></bb>
+        <div>
+            <label for="name"><dd><font color="red">*</font>ชื่อ-นามสกุล ผู้สมัคร:</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="mr.>">นาย</option>
+                <option value="miss">นางสาว</option>
+                <option value="miss">นาง</option>
+                <option value="girl">เด็กหญิง</option>
+                <option value="boy">เด็กชาย</option></dd>
+            </select>
+            <input type="text" name="" placeholder=""> -
+            <input type="text" name="" placeholder="">
+        </div>
+        <label for="name"><dd><font color="red">*</font>เพศ</label>
+        <select id="" name="">
+            <option value="">- เลือก -</option>
+            <option value="men">ชาย</option>
+            <option value="women">หญิง</option>
+            <option value="non">ไม่ต้องการระบุ</option></dd>
+        </select>
+        <div>
+            <label for=""><dd><font color="red">*</font>สัญชาติ</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ไทย</option>
+                <option value="">อื่นๆ</option></dd>
+            </select>
+            <label for=""><dd><font color="red">*</font>ศาสนา</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">พุทธ</option>
+                <option value="">คริสต์</option>
+                <option value="">อิสลาม</option>
+                <option value="">ฮินดู</option></dd>
+            </select>
+        </div>
+        <div>
+            <label for=""><dd><font color="red">*</font>ความสามารถพิเศษ</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ด้านสติปัญญา</option>
+                <option value="">ด้านความคิดสร้างสรรค์</option>
+                <option value="">ด้านการใช้ภาษา</option>
+                <option value="">ด้านการเป็นผู้นำ</option>
+                <option value="">ด้านการสร้างงานทางทัศนศิลป์</option>
+                <option value="">ด้านศิลปะการแสดง</option>
+                <option value="">ด้านดนตรี</option>
+                <option value="">ด้านกีฬา</option>
+                <option value="">ไม่ระบุ</option></dd>
+            </select>
+            <label for=""><dd><font color="red">*</font>ความพิการ</label>
+            <select id="" name="">
+                <option value="1">ไม่พิการ</option>
+                <option value="2">ความพิการทางการมองเห็น</option>
+                <option value="3">ความพิการทางการได้ยิน</option>
+                <option value="4">ความพิการทางสติปัญญา</option>
+                <option value="5">ความพิการร่างกาย,สุขภาพ</option>
+                <option value="6">ความพิการทางการเรียนรู้</option>
+                <option value="7">ความพิการทางการพูด,ภาษา</option>
+                <option value="8">ความพิการทางพฤติกรรมและอารมณ์</option>
+                <option value="9">ความพิการทางออทิสติก</option>
+                <option value="10">ความพิการซ้ำซ้อน</option>
+                <option value="11">พิการ (ไม่ระบุประเภท)</option></dd>
+            </select>
+        </div>
+        <bb><p><font style="color:green" ><b>&nbsp;&nbsp;&nbsp;ข้อมูลที่อยู่ตามทะเบียนบ้าน</b></p></font></bb>
+        <div>
+            <bb><label for=""><font color="red">*</font>บ้านเลขที่</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" />
+            <label for=""><font color="red">*</font>หมู่</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" />
+            <label for=""><font color="red">*</font>ถนน</label>
+            <input id="" name="" type="text"" value="" style=" width:100px;" /></bb>
+        </div>
+        <div>
+        <label for=""><font color="red">*</font>จังหวัด</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">กรุงเทพ</option>
+                <option value="">อื่นๆ</option>
+            </select>
+        <label for="">โทรศัพท์บ้าน</label>
+            <input id="" name="" type="text"" value="">
+        </div>
+        <div>
+            <label for=""><font color="red">*</font>อำเภอ/เขต</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">ลาดพร้าว</option>
+                <option value="">บางกะปิ</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for=""><font color="red">*</font>โทรศัพท์มือถือ</label>
+            <input id="" name="" type=" tel" value="" placeholder="xxxxxxxxxx">
+        </div>
+        <div>
+            <label for=""><font color="red">*</font>ตำบล/แขวง</label>
+            <select id="" name="">
+                <option value="">- เลือก -</option>
+                <option value="">หัวหมาก</option>
+                <option value="">อื่นๆ</option>
+            </select>
+            <label for="E_mail">email</label>
+            <input type="email" name="email" placeholder="email@adress.com">
+        </div>
+        <div>
+            <label for=""><font color="red">*</font>รหัสไปรษณีย์</label>
+            <input id="" name="" type="text"" value="" style=" width:50px;" /></bb>
+        </div>
+        <bb><p><font style="color:green" ><b>&nbsp;&nbsp;&nbsp;ข้อมูลการศึกษา</b></p></font></bb>
+        <div>
+            <label for="">จบจากสถานศึกษา</label>
+            <input id="" name="" type="text"" value="" />
+        </div>
+        <div>
+            <label for="">เกรดเฉลี่ยสะสม</label>
+            <Input type="radio" name="" value="0"> <input id="" name="" type="text"" value="" /> ระบุค่าระหว่าง 1.00-4.00
+            <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Input type="radio" name="" value="0"> เทียบระดับ (สำหรับการศึกษานอกระบบ และ กศน.)
+        </div>
+        <div>
+            <label for="">ปีที่สำเร็จการศึกษา</label>
+            <input id="" name="" type="text"" value="" />
+        </div>
+        <br>
+        <input type="submit" onclick="alert('ข้อมูลถูกต้อง')" value="Submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
